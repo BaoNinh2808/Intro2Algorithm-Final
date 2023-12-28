@@ -7,7 +7,7 @@
 Gọi $g(n)$ là số lượng các cặp p,q khác nhau sao cho $p+q=2×n$ và $p,q$ là nguyên tố. Hai cặp được gọi là khác nhau nếu 1 trong 2 số tham gia vào cặp này và không tham gia vào cặp còn lại. Cho số nguyên $n$. Hãy tính giá trị biểu thức: $f(n)=g(2)+g(3)+…+g(n)$.
 
 **Dữ liệu vào**:  
-Chứa số nguyên $n$ với $3≤n≤103$.
+Chứa số nguyên $n$ với $3≤n≤10^3$.
 
 **Kết quả**:  
 Gồm một số nguyên duy nhất là giá trị $f(n)$.
