@@ -28,7 +28,7 @@ Cho số $n$ và một dãy gồm n số $a_1,a_2,…a_n$. Định nghĩa cặp 
 **Yêu cầu**: Đếm số lượng các cặp số nghịch nhau trong dãy.  
 
 **Dữ liệu vào**:
-- Dòng đầu tiên chứa một số nguyên $n$ $1 ≤ n ≤5×10^4$.  
+- Dòng đầu tiên chứa một số nguyên $n$ với $1 ≤ n ≤5×10^4$.  
 - Dòng thứ 2 chứa $n$ số nguyên $a_1,a_2,…a_n$ ($-2^{31} ≤ a_i ≤ 2^{31}$).  
 
 **Kết quả**:  
