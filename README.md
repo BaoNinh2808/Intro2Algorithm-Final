@@ -23,7 +23,7 @@ Gồm một số nguyên duy nhất là giá trị $f(n)$.
 
 ## Bài 4
 
-Cho số $n$ và một dãy gồm n số $a_1,a_2,…a_n$. Định nghĩa cặp số nghịch nhau là cặp hai số $a_i$ và $a_j$ trong dãy thỏa điều kiện $i<j$ và $a_i > a_j$. 
+Cho số $n$ và một dãy gồm n số $a_1,a_2,…a_n$. Định nghĩa cặp số nghịch nhau là cặp hai số $a_i$ và $a_j$ trong dãy thỏa điều kiện $i < j$ và $a_i > a_j$. 
 
 **Yêu cầu**: Đếm số lượng các cặp số nghịch nhau trong dãy.  
 
