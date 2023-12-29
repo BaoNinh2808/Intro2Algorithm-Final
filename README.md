@@ -41,5 +41,33 @@ INPUT       | OUTPUT
 1 2 4 3 5 1 |    
 
 
+## Bài 5:
+
+## Bài 6:
+
+Cho k dãy gồm các số nguyên đã được sắp xếp sẵn theo thứ tự tăng dần trong mỗi danh sách. Các phần tử trong dãy có thể có cùng giá trị.
+
+**Yêu cầu**: Hãy gộp tất cả k dãy này lại thành một danh sách đã được sắp xếp theo thứ tự tăng dần.
+
+**Dữ liệu vào**
+- Dòng đầu tiên chứa số nguyên k là số lượng các dãy số. $(1≤k≤10^4)$
+- k dòng tiếp theo, mỗi dòng chứa một dãy các số nguyên được sắp xếp theo thứ tự tăng dần. Mỗi dòng chứa không quá 500 số nguyên.
+- Tổng số lượng các phần tử trong k dãy không vượt quá $10^4$.
+
+**Kết quả**
+- Gồm một dòng chứa dãy số đã được gộp lại theo thứ tự tăng dần.
+
+**Ví dụ:**
+
+INPUT | OUTPUT
+:----:|:-----:
+3   | 1 1 2 3 4 4 5 6
+1 4 5 |
+1 3 4 |
+2 6 |
+
+
+
+
 
 
