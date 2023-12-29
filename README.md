@@ -20,6 +20,28 @@ Gồm một số nguyên duy nhất là giá trị $f(n)$.
 
 
 ## Bài 3
+Cho hai dãy số nguyên $A = (a_1, a_2, \dots, a_m)$ và $B = (b_1, b_2, \dots, b_n)$. Tìm một phần tử $a_i$ trong dãy $A$ và một phần tử $b_j$ trong dãy $B$ có $|a_i + b_j|$ là nhỏ nhất có thể.
+
+**Dữ liệu vào**:
+- Dòng 1 chứa hai số nguyên dương $m, n \leq 10^5$.
+- Dòng 2 chứa $m$ số nguyên $a_1, a_2, \dots, a_m$ (∀${i}: |a_i| < 2 \times 10^9$).
+- Dòng 3 chứa $n$ số nguyên $b_1, b_2, \dots, b_n$ (∀${i}: |b_i| < 2 \times 10^9$).
+
+**Kết quả**: Ghi ra 2 chỉ số $i$ và $j$ của hai phần tử tương ứng tìm được.
+
+**Ví dụ**:
+- INPUT:
+```
+4 5
+1 8 2 9
+-5 -6 3 -7 -4
+```
+- OUTPUT
+```
+2 4
+```
+
+**[Solution](./Bài%203/3.md)**
 
 ## Bài 4
 
@@ -29,7 +51,7 @@ Cho số $n$ và một dãy gồm n số $a_1,a_2,…a_n$. Định nghĩa cặp 
 
 **Dữ liệu vào**:
 - Dòng đầu tiên chứa một số nguyên $n$ với $1 ≤ n ≤5×10^4$.  
-- Dòng thứ 2 chứa $n$ số nguyên $a_1,a_2,…a_n$ ($-2^{31} ≤ a_i ≤ 2^{31}$).  
+- Dòng thứ 2 chứa $n$ số nguyên $a_1,a_2,…a_n$ ($-2^{31} ≤ a_i ≤ 2^{31}$).
 
 **Kết quả**:  
 - Gồm một số nguyên duy nhất là số lượng các cặp số nghịch nhau trong dãy.
