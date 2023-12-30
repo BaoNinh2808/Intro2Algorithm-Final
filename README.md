@@ -123,6 +123,61 @@ INPUT |OUTPUT
     |.Q..
 
 
+## Bài 9
+
+## Bài 10
+
+Cho một ma trận kích thước m×n chứa các số 0 hoặc 1 tại mỗi ô. 
+
+**Yêu cầu:** Tìm hình vuông lớn nhất chứa toàn số 0 hoặc toàn số 1.
+
+**Ví dụ hình ảnh:**
+
+| 1 | 0 | 1 | 0 | 0 |
+|---|---|---|---|---|
+| 1 | 0 | 1 | 1 | 1 |
+| 1 | 1 | 1 | 1 | 1 |
+| 1 | 0 | 0 | 1 | 0 |
+
+**Dữ liệu vào**
+
+- Dòng đầu tiên chứa 2 số nguyên dương m và n tương ứng là số lượng dòng và cột của ma trận. (1≤m,n≤100).
+
+- m dòng tiếp theo, mỗi dòng chứa n số 0 hoặc 1 cách nhau bởi khoảng trắng.
+
+**Kết quả**
+
+- Diện tích của hình vuông lớn nhất chứa toàn số 1 hoặc toàn số 1
+
+**Ví dụ:**
+
+|INPUT | OUTPUT|
+|:---:|:----:|
+4 5 | 2
+1 0 1 0 0 |
+1 0 1 1 1 |
+1 1 1 1 1 |
+1 0 0 1 0 |
+
+## Bài 11
+
+## Bài 12
+
+Hãy chỉ ra cách xây dựng một hình vuông có diện tích là số nguyên dương S cho trước với các tọa độ nguyên trong phạm vi từ $-10^9$ đến $10^9$.
+
+**Input:** Số nguyên dương S≤$10^3$.
+
+**Output:** Tọa độ 4 đỉnh của hình vuông được liệt kê cùng hoặc ngược chiều kim đồng hồ. Trường hợp không có lời giải thì thông báo Impossible.
+
+|INPUT  | OUTPUT |
+|:-----:|:------:|
+|5      | 1 2
+|       | 2 4
+|       | 4 3
+|       | 3 1
+|3      | Impossible
+
+
 
 
 
