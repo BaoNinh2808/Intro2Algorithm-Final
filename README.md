@@ -90,6 +90,28 @@ INPUT | OUTPUT
 
 
 ## Bài 7
+Cho một dãy gồm $n$ số nguyên không âm là giá trị độ cao của một vùng đất. Một cơn mưa đủ nhiều đổ lên vùng đất này và nước còn đọng lại như hình bên dưới. Biết rằng nước có thể chảy về các vị trí thấp hơn kề cạnh nếu mực nước ở vị trí hiện tại lớn hơn vị trí kề cạnh. Hai biên của vùng đất là biển và có mực nước bằng 0.
+
+**Yêu cầu**: Hãy tính tổng lượng nước còn đọng lại sau cơn mưa.
+
+**Dữ liệu vào**:
+- Dòng đầu tiên chứa số nguyên dương $n$ là chiều rộng của vùng đất ($0 \leq n \leq 3 \times 10^4$).
+- Dòng thứ hai chứa $n$ số nguyên không âm $h_i$ là độ cao tại vị trí $i$ trên vùng đất đó. ($0 \leq a_i \leq 10^5$).
+
+**Kết quả**: Gồm một số nguyên duy nhất là tổng lượng nước tại tất cả các vị trí sau cơn mưa.
+
+**Ví dụ**:
+- INPUT:
+```
+6
+4 2 0 3 2 5
+```
+- OUTPUT:
+```
+9
+```
+
+**[Solution](./Bài%207/7.md)**
 
 ## Bài 8
 
@@ -124,6 +146,31 @@ INPUT |OUTPUT
 
 
 ## Bài 9
+Cho 2 chuỗi $s$ và $p$ gồm các ký tự latin in thường `a`-`z`. Trong chuỗi $p$ có thể có thêm các ký tự `*` và `.` với ý nghĩa:
+Ký tự `*` biểu diễn rằng có thể lặp lại ký tự ngay trước đó một hoặc nhiều lần hoặc có thể không lặp lại lần nào. Ví dụ: chuỗi `abbbb` có thể được sinh ra từ chuỗi `ab*` hoặc chuỗi `a` cũng có thể được sinh ra từ chuỗi `ab*`.
+Ký tự `.` biểu diễn rằng chỉ có thể thay thế cho một ký tự duy nhất tại vị trí đó trong chuỗi. Ví dụ: chuỗi `abc` có thể được sinh ra từ chuỗi `a.c` hoặc `ab.`. 
+
+**Yêu cầu**: Kiểm tra xem chuỗi $s$ có phải được sinh ra từ chuỗi $p$ hay không.
+
+**Dữ liệu vào**:
+- Dòng đầu tiên chứa chuỗi $s$ ($len(s) \leq 20$).
+- Dòng thứ hai chứa chuỗi $p$ ($len(p) \leq 30$).
+
+**Kết quả**: Trả về `true` nếu chuỗi $s$ có thể được sinh ra từ chuỗi $p$, và `false` nếu ngược lại.
+
+**Ví dụ**:
+- INPUT:
+```
+mississippi
+mis*is*p*.
+```
+- OUTPUT:
+```
+false
+```
+
+**[Solution](./Bài%209/9.md)**
+
 
 ## Bài 10
 
@@ -177,8 +224,33 @@ Hãy chỉ ra cách xây dựng một hình vuông có diện tích là số ngu
 |       | 3 1
 |3      | Impossible
 
+## Bài 13
+Trong mặt phẳng cho $n (n \leq 10^3)$ điểm có tọa độ nguyên sao cho không có 2 điểm nào trùng nhau và không có 3 điểm nào thẳng hàng ($n$ là một số chẵn). 
 
+**Yêu cầu**: Hãy chọn ra 2 điểm trong số n điểm để đường thẳng qua 2 điểm này chia tập điểm thành 2 phần có số lượng điểm bằng nhau.
 
+**Dữ liệu vào**:
+- Dòng đầu tiên: $n (2 \leq n \leq 10^3)$.
+- Dòng thứ $i$ trong $n$ dòng tiếp theo: $x_i, y_i (|x_i|, |y_i| \leq 10^6)$ - toạ độ của điểm thứ $i$.
 
+**Kết quả**: Gồm 2 số là số thứ tự của 2 điểm được chọn.
 
+**Ví dụ**:
+- INPUT:
+```
+6
+3 5
+1 3
+3 1
+6 1
+8 3
+6 5
+```
+- OUTPUT:
+```
+2 5
+```
 
+**[Solution](./Bài%2013/13.md)**
+
+## Bài 15
