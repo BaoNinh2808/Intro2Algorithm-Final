@@ -177,6 +177,95 @@ Hãy chỉ ra cách xây dựng một hình vuông có diện tích là số ngu
 |       | 3 1
 |3      | Impossible
 
+## Bài 13
+
+## Bài 14
+
+Cho đa giác lồi n đỉnh có tọa độ nguyên $x_i,y_i$. Các đỉnh được liệt kê ngược chiều kim đồng hồ và không có 3 đỉnh nào thẳng hàng. Chỉ ra một cách kẻ 1 đường chéo đi qua 2 đỉnh và chia đa giác thành 2 phần có diện tích chênh lệch nhau ít nhất.
+
+Dữ liệu vào
+
+- Dòng đầu tiên: n≤ $10^3$
+
+- Dòng thứ i trong n dòng sau: $x_i,y_i$ ($|x_i|,|y_i| < 10^9$).
+
+**Kết quả:**
+
+- Gồm 2 số nguyên là số thứ tự 2 đỉnh được chọn.
+
+**Ví dụ:**
+
+INPUT | OUTPUT
+:----:|:----|
+4     | 2 4
+0 2   |
+0 0   |
+2 0   |
+3 3   |
+
+## Bài 15
+
+## Bài 16
+
+Cho một cây n đỉnh. Khoảng cách giữa 2 đỉnh u,v là số cạnh trên đường đi từ u đến v. Độ rộng của cây là tổng khoảng cách giữa tất cả cặp đỉnh u,v (u < v). Hãy xác định độ rộng của cây.
+
+**Dữ liệu vào**
+
+- Dòng đầu tiên: n (với n ≤ $10^3$).
+- n-1 dòng tiếp theo: ui,vi – một cạnh của cây.
+
+**Kết quả:**
+
+- Gồm một số nguyên duy nhất là độ rộng của cây.
+
+![Ví dụ](./Bài%2016/vd_16.png)
+
+## Bài 17
+
+## Bài 18
+
+Cho dãy số $a_1,a_2,…,a_n$ là một hoán vị của các số từ 1 đến n. Có thể thực hiện thao tác sau trên dãy số: chọn vị trí i (2 ≤ i ≤ n) và đảo ngược thứ tự các phần tử $a_1,a_2,…,a_i$, các phần tử còn lại giữ nguyên.
+
+**Yêu cầu:** Tìm số thao tác thực hiện ít nhất để dãy có thứ tự tăng dần.
+
+**Dữ liệu vào:**
+
+- Dòng đầu tiên: n1 ≤ n ≤ 8
+- Dòng thứ hai: $a_1,a_2,…,a_n$
+
+**Kết quả:**
+
+- Gồm một số duy nhất là số thao tác ít nhất.
+
+![Ví dụ](./Bài%2018/vd_18.png)
+
+## Bài 19
+
+## Bài 20
+
+Xét tất cả các hoán vị của dãy số tự nhiên (1,2, … , 𝑛). Giả sử rằng các hoán vị được sắp xếp theo thứ tự từ điển và đánh số từ 1 tới 𝑛! 
+
+- Ví dụ với 𝑛 = 3, có 6 hoán vị: (1,2,3); (1,3,2); (2,1,3); (2,3,1); (3,1,2); (3,2,1) 
+
+**Yêu cầu:** Cho trước một hoán vị $(p_1,p_2,…, p_n)$ hãy cho biết số thứ tự 𝑥 của hoán vị đó và ngược lại: Cho trước một số thứ tự 𝑦 (1 ≤ 𝑦 ≤ 𝑛!) hãy tìm dãy hoán vị $(q_1,q_2,…, q_n)$ mang số thứ tự 𝑦. 
+
+**Dữ liệu vào:** 
+- Dòng 1: Chứa 𝑛 số $(p_1,p_2,…, p_n)$ (𝑛 ≤ 20) 
+- Dòng 2: Chứa số 𝑦 
+
+**Kết quả:** 
+- Dòng 1: Ghi số 𝑥 
+- Dòng 2: Ghi 𝑛 số $(q_1,q_2,…, q_n)$
+
+**Ví dụ:** 
+INPUT | OUTPUT
+:----:|:----:
+2 1 3 | 3
+4     | 2 3 1
+ 
+
+
+
 
 
 
