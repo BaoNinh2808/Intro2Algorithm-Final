@@ -43,7 +43,7 @@ int main() {
     ifstream reader("INPUT", ios::in);
     ofstream writer("OUTPUT", ios::out);
 
-    string A, B;
+    string A, B;;;;
     getline(reader, A);
     getline(reader, B);
 

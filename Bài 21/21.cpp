@@ -76,7 +76,7 @@ void solve(vector<Edge> &edges, int n, int m, int k) {
     vector<Partition> partitions;
     vector<int> res;
 
-    // res.push_back(0);
+    // res.push_back(0);`
     partitions.push_back(firstMST);
     pq.push(make_pair(partitions[0].getMstValue(), 0));
 
