@@ -1,6 +1,7 @@
 # Introduction to Algorithm Thinking - Final Term
 
 ## Bài 1:
+**[Solution](./Bài%201/1.md)**
 
 ## Bài 2:
 
@@ -207,6 +208,7 @@ Cho một ma trận kích thước m×n chứa các số 0 hoặc 1 tại mỗi 
 1 0 0 1 0 |
 
 ## Bài 11
+**[Solution](./Bài%2011/11.md)**
 
 ## Bài 12
 
